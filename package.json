@@ -1,0 +1,36 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development MONIT_ENV=development nodemon --config nodemon.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarrenJones/algorithm.git"
+  },
+  "author": "warren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WarrenJones/algorithm/issues"
+  },
+  "homepage": "https://github.com/WarrenJones/algorithm#readme",
+  "devDependencies": {
+    "@types/jasmine": "^3.5.13",
+    "cross-env": "^7.0.2",
+    "jasmine-core": "^3.6.0",
+    "karma": "^5.1.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-webpack": "^4.0.2",
+    "nodemon": "^2.0.4",
+    "ts-loader": "^8.0.2",
+    "ts-node": "^9.0.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
