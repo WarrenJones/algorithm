@@ -4,7 +4,7 @@ export default class LinkedList {
   count: 0;
 
   push(element: any) {
-    const node = new Node(element);
+    const node = new Node(element, undefined);
     let current;
     if (!this.head) {
       this.head = node;
